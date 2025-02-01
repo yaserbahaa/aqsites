@@ -1,0 +1,186 @@
+.navbarCon{
+    width: 100%;
+    height: 138px;
+    display: flex
+;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+}
+.navbar{
+    width: 32%;
+    height: 72px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    background: black;
+    border-radius: 48px;
+    position: fixed;
+    top: 39px;
+}
+.logo{
+    display: flex
+    ;
+        padding-left: 6%;
+}
+
+.title{
+    margin-left: 8px;
+    display: flex
+;
+    align-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.menu{   
+    width: 50px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 16px;
+    
+}
+.menuImg{
+    width: 40px;
+    cursor: pointer;
+}
+.logoImg{
+    width: 37px;
+    cursor: pointer;
+
+}
+.titleH2{
+    margin: 0px;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+
+}
+
+
+
+.menuList{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position: absolute;
+    top: 74px;
+    border-radius: 48px;
+    height: 392px;
+}
+.menuListCon{
+    padding: 5%;
+    width: 90%;
+    height: 90%;
+}
+.menuListParent1{
+    width: 100%;
+    height: 41.5%;
+    display: flex;
+    gap: 2%;
+    margin-bottom: 2%;
+}
+.menuListParent1Child1{
+    width: 49%;
+    background: #cd8500;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    cursor: pointer;
+
+}
+.menuListParent1Child1H1{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+.menuListParent1Child2{
+    width: 49%;
+    background: #cd8500;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    cursor: pointer;
+
+}
+
+.menuListParent1Child2H1{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+
+.menuListParent2{
+    width: 100%;
+    height: 41.5%;
+    display: flex;
+    gap: 2%;
+
+}
+.menuListParent2Child1{
+    display: flex;
+    width: 64%;
+    background: #cd8500;
+    border-radius: 24px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    cursor: pointer;
+
+}
+.menuListParent2Child1H1{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+.menuListParent2Child2{
+    width: 34%;
+    display: flex;
+    background: #cd8500;
+    border-radius: 24px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
