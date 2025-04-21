@@ -6,7 +6,6 @@
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    position: fixed;
     top: 0px;
 }
 .navbar{
@@ -19,6 +18,7 @@
     border-radius: 48px;
     position: fixed;
     top: 39px;
+    z-index: 1000 !important;
 }
 .logo{
     display: flex

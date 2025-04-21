@@ -1,0 +1,248 @@
+.sec1Parent{
+    width: 100%;
+    background: #101010ff;
+    position: absolute;
+    top: 100%;
+    display: flex
+;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.sec1Title{
+    color: white;
+    font-size: 380px;
+    width: 100%;
+    margin: 100px 0px 60px 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.boxsParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 87%;
+    gap: 40px;
+}
+.boxsCont1{
+    width: 100%;
+    display: flex;
+    gap: 26px;
+}
+
+
+
+.box1{
+    background: #cd8500;
+    width: 49.5%;
+    height: 620px;
+    border-radius: 55px;
+    padding: 40px;
+}
+
+.boxTitle1{
+    font-size: 70px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.boxImgCont1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 493px;
+}
+.boxImg1{
+    width: 45%;
+}
+.boxTxt1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.box2{
+    background: #cd8500;
+    width: 49.5%;
+    height: 620px;
+    border-radius: 55px;
+    padding: 40px;
+}
+
+.boxTitle2{
+    font-size: 70px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.boxImgCont2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 493px;
+}
+.boxImg2{
+    width: 71%;
+}
+.boxTxt2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0px;
+}
+
+
+.boxsCont2{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    margin-bottom: 112px;
+}
+
+
+.box3{
+    display: flex
+;
+    background: #cd8500;
+    width: 30.5%;
+    height: 302px;
+    padding: 24px;
+    border-radius: 55px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 52px;
+    position: relative;
+}
+
+
+.boxTitle3{
+    font-size: 41px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.boxImg3{
+    position: absolute;
+    top: 82px;
+    right: 31px;
+}
+
+
+.boxTxt3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0px;
+    line-height: 34px;
+}
+
+
+.box4{
+    display: flex
+    ;
+        background: #cd8500;
+        width: 30.5%;
+        height: 302px;
+        padding: 24px;
+        border-radius: 55px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 52px;
+        position: relative;
+}
+
+.boxTitle4{
+    font-size: 41px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.boxImg4{
+    position: absolute;
+    top: 82px;
+    right: 31px;
+}
+
+
+.boxTxt4{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0px;
+    line-height: 34px;
+}
+
+
+.box5{
+    display: flex
+    ;
+        background: #cd8500;
+        width: 30.5%;
+        height: 302px;
+        padding: 24px;
+        border-radius: 55px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 18px;
+        position: relative;
+}
+
+
+.boxTitle5{
+    font-size: 41px;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 31px;
+    margin-top: 20px;
+}
+
+.boxImg5{
+    position: absolute;
+    top: 78px;
+    right: 31px;
+}
+
+
+.boxTxt5{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0px;
+    line-height: 34px;
+}
+
+

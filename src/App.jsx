@@ -7,7 +7,6 @@ function App() {
   return (
     <>
     <Home/>
-    <div style={{width:"300px",height:"2000px"}}></div>
     </>
   )
 }

@@ -1,0 +1,205 @@
+.parent{
+    position: absolute;
+    top: 100%;
+    z-index: 10;
+    width: 100%;
+}
+
+
+
+
+.ourWorkParent{
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.ourWorkTitle{
+    color: white;
+    font-size: 800px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.ourWorkCont{
+    display: flex
+;
+    gap: 23px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
+}
+
+.ourWorkSec1{
+    border-radius: 48px;
+    width: 25.33%;
+    height: 1464px;
+    display: flex
+;
+    background: #333;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+.ourWorkSec2{
+    border-radius: 48px;
+    width: 25.33%;
+    height: 1464px;
+    display: flex
+;
+    background: #333;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+
+.ourWorkSec3{
+    border-radius: 48px;
+    width: 25.33%;
+    height: 1464px;
+    display: flex
+;
+    background: #333;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+.ourWorkSecH1{
+    margin: 0px;
+    font-size: 45px;
+    color: white;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.ourWorkSecImg{
+
+    margin-top: 1px;
+    align-self: center;
+}
+
+.ourWorkSecTxt1{
+    margin: 87px 0px 0px 0px;
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 96px;
+}
+.ourWorkSecTxt2{
+    margin: 87px 0px 0px 0px;
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 96px;
+
+}
+
+.ourWorkSecTxt3{
+    margin: 87px 0px 0px 0px;
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 96px;
+
+}
+.ourWorkSecTxt4{
+    margin: 87px 0px 0px 0px;
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 96px;
+
+}
+
+.ourWorkSecTxt5{
+    margin: 87px 0px 0px 0px;
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 96px;
+
+}
+.ourWorkSecTxt6{
+    margin: 87px 0px 0px 0px;
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 96px;
+
+}
+.ourWorkSecTxt7{
+    margin: 87px 0px 0px 0px;
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 96px;
+
+}
+.ourWorkSecTxt8{
+    margin: 87px 0px 0px 0px;
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 96px;
+
+}
+.ourWorkSecTxt9{
+    margin: 87px 0px 0px 0px;
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 96px;
+
+}

@@ -41,32 +41,42 @@ function Navbar() {
 
       <div className='menuListParent1'>
 
+      <a className='scroll' href="#themes">
       <div className='menuListParent1Child1'>
        <h1 className='menuListParent1Child1H1'>WEB DESIGN</h1>
        <img src={webDesin} alt="" />
       </div>
+      </a>
 
+
+      <a className='scroll' href="#contantUs">
       <div className='menuListParent1Child2'>
       <img src={ContactUs} alt="" />
 
         <h1 className='menuListParent1Child2H1'>CONTACT US NOW</h1>
       </div>
+      </a>
 
       </div>
 
 
       <div className='menuListParent2'>
-
+      <a className='scroll' href="#dev">
       <div className='menuListParent2Child1'>
 
         <h1 className='menuListParent2Child1H1'>DEVELOPMENT</h1>
         <img src={devImg} alt="" />
 
       </div>
+    </a>
+
+
+      {/* <a className='scroll' href=""> */}
+
       <div className='menuListParent2Child2'>
       <img src={faqImg} alt=""  style={{width: "160px"}}/>
       </div>
-
+      {/* </a> */}
       </div>
 
       </div>

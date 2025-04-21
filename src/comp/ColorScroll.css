@@ -1,0 +1,33 @@
+.spacer {
+    height: 100vh;
+    background: #f0f0f0;
+  }
+  
+  .color-change-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000; /* base color */
+    overflow: hidden;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #0000ff; /* the sweeping color */
+    z-index: 1;
+    pointer-events: none;
+    transition: width 0.2s;
+  }
+  
+  .color-change-section h2 {
+    position: relative;
+    z-index: 2;
+  }

@@ -1,0 +1,87 @@
+
+.introCon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+
+.introh3{
+    display: flex
+;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.introh1{
+    display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        font-family: "Smooch Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 166px;
+        /* line-height: 128px; */
+}
+.introh1-2{
+    display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        font-family: "Smooch Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 166px;
+        /* line-height: 111px; */
+}
+.introh4{
+    display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        font-family: "Smooch Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 36px;
+        margin-top: 43px;
+}
+.buttonIntroCon{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 19px;
+}
+.buttonIntro{
+    display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 340px;
+        height: 65px;
+        border-radius: 40px;
+        font-size: 34px;
+        cursor: pointer;
+        margin: 50px 0px 50px 0px;
+}
+

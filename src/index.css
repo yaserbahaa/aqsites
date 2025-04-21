@@ -1,3 +1,55 @@
 body{
   background-color: #cd8500;
+  margin: 0px;
+}
+
+.buttonIntro2{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 340px;
+  height: 65px;
+  border-radius: 40px;
+  font-size: 34px;
+  cursor: pointer;
+  margin: 50px 0px 153px 0px;
+}
+
+.buttonIntro3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 340px;
+  height: 65px;
+  border-radius: 40px;
+  font-size: 34px;
+  cursor: pointer;
+  margin: 0px 0px 123px 0px;
+}
+
+.buttonIntro4 {
+  display: flex
+;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 340px;
+  height: 65px;
+  border-radius: 40px;
+  font-size: 34px;
+  cursor: pointer;
+  margin: 111px 0px 19px 0px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll{
+  display: contents;
+  text-decoration: none;
+  color: black;
 }
