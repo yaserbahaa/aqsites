@@ -24,10 +24,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 
-function Ourwork(ref) {
+function Ourwork() {
 const themes = useRef(null)
 const textRef = useRef(null)
-const sectionRef = ref.sectionRef
 useEffect(()=>{
 
   gsap.to(themes.current, {
@@ -137,7 +136,7 @@ ease: 'none',
   <button className='buttonIntro2'>تواصل معنا</button>
   </a>
   </div>
-  <Sec1 ref={sectionRef} themes={themes}/>
+  <Sec1  themes={themes}/>
 
   </div>
 

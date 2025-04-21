@@ -10,8 +10,7 @@ import Foot from './foot'
 
 
 
-function Tec(ref) {
-  const sectionRef = ref.sectionRef
+function Tec() {
 
   return (
     <>
@@ -76,7 +75,7 @@ function Tec(ref) {
   </div>
   </div>
 
-  <Foot ref={sectionRef}/>
+  <Foot />
   </div>
 
     </>

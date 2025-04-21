@@ -8,7 +8,7 @@ import Sec3 from './sec3';
 gsap.registerPlugin(ScrollTrigger);
 
 
-function Sec2(ref) {
+function Sec2() {
 
 
   const textRef = useRef(null)
@@ -16,7 +16,6 @@ function Sec2(ref) {
   const box2 = useRef(null)
   const box3 = useRef(null)
   const box4 = useRef(null)
-  const sectionRef = ref.sectionRef
 
   useEffect(()=>{
 
@@ -145,7 +144,7 @@ ease: 'none',
 
     </div>
     
-    <Sec3 ref={sectionRef}/>
+    <Sec3/>
   </div>
     </>
   )

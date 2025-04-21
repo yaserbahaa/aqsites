@@ -4,10 +4,7 @@ import React from 'react';
 import "../css/intro.css"
 
 
-const Intro = React.forwardRef((props, ref2) => {
-  const sectionRef = ref2; // sectionRef is now the forwarded ref
-  const sectionRef2 = useRef(null);
-
+function Intro(){
 
   return (
     <div className='introCon'>
@@ -25,6 +22,6 @@ const Intro = React.forwardRef((props, ref2) => {
     </div>
     
   );
-});
+};
 
 export default Intro;

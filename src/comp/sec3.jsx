@@ -8,7 +8,7 @@ import Tec from './tec';
 gsap.registerPlugin(ScrollTrigger);
 
 
-function Sec3(ref) {
+function Sec3() {
   const title = useRef(null)
   const contant = useRef(null)
   const contantImg = useRef(null)
@@ -28,7 +28,6 @@ function Sec3(ref) {
   const contantImg4 = useRef(null)
   const progress4 = useRef(null);
 
-  const sectionRef = ref.sectionRef
 
   useEffect(()=>{
 
@@ -336,7 +335,7 @@ ease: 'none',
     <button className='buttonIntro4'>تواصل معنا</button>
     </a>
     </div>
-    <Tec ref={sectionRef}/>
+    <Tec />
     </div>
     </>
   )

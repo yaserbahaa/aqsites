@@ -14,10 +14,9 @@ import Sec2 from './sec2';
 
 gsap.registerPlugin(ScrollTrigger);
 
-function Sec1(ref) {
+function Sec1() {
   const textRef = useRef(null)
   const sec1Ref = useRef(null)
-  const sectionRef = ref.sectionRef
 
   useEffect(()=>{
 
@@ -118,7 +117,7 @@ function Sec1(ref) {
 <button className='buttonIntro3'>تواصل معنا</button>
 </a>
   </div>
-  <Sec2 ref={sectionRef}/>
+  <Sec2 />
 
   </div>
     </>

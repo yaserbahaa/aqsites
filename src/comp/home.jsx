@@ -8,16 +8,15 @@ import Sec1 from './sec1'
 
 
 function Home() {
-  const sectionRef = useRef(null);
 
   return (
     <>
         <Navbar/>
 
     <div className='stickHome'>
-    <Intro ref={sectionRef}/>
+    <Intro />
     </div>
-    <Ourwork ref={sectionRef}/>
+    <Ourwork />
     </>
   )
 }
