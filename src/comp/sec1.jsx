@@ -56,7 +56,9 @@ function Sec1() {
   return (
     <>
   <div className='sec1Parent' ref={sec1Ref}>
-  <h1 ref={textRef} className='sec1Title'>What We do</h1>  
+  {/* <h1 ref={textRef} className='sec1Title'>What We do</h1>   */}
+  <h1 className='sec1Title'>What We do</h1>  
+
   <div className='boxsParent'>
 
     <div className='boxsCont1'>
@@ -66,7 +68,7 @@ function Sec1() {
       <div className='boxImgCont1'>
       <img className='boxImg1' src={test3} alt="" />
       </div>
-      <p className='boxTxt1'>We build websites based on your needs, from custom-coded solutions to platforms like Shopify, WordPress, and no-code tools.</p>
+      <p className='boxTxt1'>نحن نبني مواقع الويب بناءً على احتياجاتك، بدءًا من الحلول المبرمجة حسب الطلب إلى منصات مثل وWordPress وأدوات عدم البرمجة.</p>
 
     </div>
     <div className='box2'>
@@ -74,7 +76,7 @@ function Sec1() {
     <div className='boxImgCont2'>
       <img className='boxImg2' src={test} alt="" />
       </div>
-      <p className='boxTxt2'>We design websites and apps that seamlessly merge functionality with modern design and micro interactions.
+      <p className='boxTxt2'>نقوم بتصميم مواقع الويب والتطبيقات التي تدمج بشكل سلس بين الوظائف والتصميم الحديث والتفاعلات الدقيقة.
       </p>
   </div>
 
@@ -89,7 +91,7 @@ function Sec1() {
   </h1>
   <img className='boxImg3' src={test4} alt="" />
 
-      <p className='boxTxt3'>Responsive web design ensures that websites look and work well on all devices, from desktops to smartphones
+      <p className='boxTxt3'>يضمن تصميم الويب المستجيب أن تبدو مواقع الويب وتعمل بشكل جيد على جميع الأجهزة، من أجهزة الكمبيوتر المكتبية إلى الهواتف الذكية
       </p>
   </div>
 
@@ -98,16 +100,18 @@ function Sec1() {
   </h1>
   <img className='boxImg4' src={test5} alt="" />
 
-      <p className='boxTxt4'>Harness AI's power to transform your business. We provide AI automation solutions to help your business scale faster with less manual work.
+      <p className='boxTxt4'>استغل قوة الذكاء الاصطناعي لتطوير أعمالك. نقدم حلول أتمتة الذكاء الاصطناعي
       </p>
 
   </div>
   <div className='box5'>
+    
   <h1 className='boxTitle5'>SEO
   </h1>
   <img className='boxImg5' src={test6} alt="" />
 
-      <p className='boxTxt5'>Boost your digital presence with data-driven SEO strategies. We optimize your website to rank higher, reach your target audience, and drive qualified organic traffic.
+
+      <p className='boxTxt5'>عزّز حضورك الرقمي باستراتيجيات تحسين محركات البحث القائمة على البيانات. نعمل على تحسين موقعك الإلكتروني ليحتل مرتبةً أعلى
       </p>
 
 </div>

@@ -113,6 +113,7 @@
     width: 42%;
     justify-content: center;
     color: white;
+    align-items: center;
 }
 
 .footContant2MiniNb1{
@@ -124,6 +125,7 @@
     cursor: pointer;
     color: white;
     font-size: 29px;
+    text-align: center;
 }
 
 .footContant2MiniNb2{
@@ -135,6 +137,9 @@
     cursor: pointer;
     color: white;
     font-size: 29px;
+    text-align: center;
+
+
 }
 
 .footContant2MiniNb3{
@@ -146,6 +151,8 @@
     cursor: pointer;
     color: white;
     font-size: 29px;
+    text-align: center;
+
 }
 
 .footContant2IconsContParent{

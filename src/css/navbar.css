@@ -8,8 +8,9 @@
     flex-wrap: wrap;
     top: 0px;
 }
+
 .navbar{
-    width: 32%;
+    width: 800px;
     height: 72px;
     display: flex;
     align-content: center;
@@ -42,6 +43,10 @@
     position: absolute;
     right: 30px;
     top: 16px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
     
 }
 .menuImg{
@@ -78,6 +83,10 @@
     padding: 5%;
     width: 90%;
     height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .menuListParent1{
     width: 100%;
@@ -184,3 +193,4 @@
     flex-wrap: wrap;
     cursor: pointer;
 }
+

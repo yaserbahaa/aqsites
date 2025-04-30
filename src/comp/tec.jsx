@@ -7,7 +7,7 @@ import mongodb from '../assets/icons8-mongodb-96.png'
 import express from '../assets/icons8-express-js-96.png'
 import figma from '../assets/icons8-figma-96.png'
 import Foot from './foot'
-
+import "../App.css"
 
 
 function Tec() {

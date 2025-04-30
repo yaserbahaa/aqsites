@@ -7,12 +7,13 @@
 ;
 }
 .sec2TitleCont{
-    width: 50%;
-    padding: 321px 0px 200px 90px;
+    width: 47%;
+    padding: 321px 0px 200px 3%;
 }
 
 .sec2Title{
-    font-size: 139px;
+    width: 93%;
+    font-size: 138px;
     margin: 0px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -28,13 +29,13 @@
 ;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     gap: 27px;
 
 }
 
 .sec2Box1{
-    width: 92%;
+    width: 86%;
     height: 251px;
     background: #cd8500;
     border-radius: 31px;
@@ -77,7 +78,7 @@
     right: 40px;
 }
 .sec2Box2{
-    width: 92%;
+    width: 86%;
     height: 251px;
     background: #cd8500;
     border-radius: 31px;
@@ -87,7 +88,7 @@
     padding: 40px;
     gap: 43px;}
 .sec2Box3{
-    width: 92%;
+    width: 86%;
     height: 251px;
     background: #cd8500;
     border-radius: 31px;
@@ -96,9 +97,10 @@
 ;
     flex-direction: column;
     padding: 40px;
-    gap: 43px;}
+    gap: 21px;
+}
 .sec2Box4{
-    width: 92%;
+    width: 86%;
     height: 251px;
     background: #cd8500;
     border-radius: 31px;
@@ -108,3 +110,16 @@
     flex-direction: column;
     padding: 40px;
     gap: 43px;}
+
+.mobileTitle{
+    display: none;
+    position: absolute;
+    top: 44px;
+    left: 33px;
+    font-size: 28px;
+    color: white;
+    font-family: "Inter", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 900;
+    font-style: normal !important;
+}

@@ -12,7 +12,7 @@
 
 .sec1Title{
     color: white;
-    font-size: 380px;
+    font-size: 200px;
     width: 100%;
     margin: 100px 0px 60px 0px;
     font-family: "Inter", sans-serif;
@@ -22,6 +22,7 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .boxsParent{
@@ -43,12 +44,17 @@
 .box1{
     background: #cd8500;
     width: 49.5%;
-    height: 620px;
     border-radius: 55px;
     padding: 40px;
+    display: flex
+;
+    flex-direction: column;
+    gap: 51px;
+    justify-content: center;
 }
 
 .boxTitle1{
+    width: 100%;
     font-size: 70px;
     margin: 0px;
     font-family: "Inter", sans-serif;
@@ -58,10 +64,10 @@
 }
 .boxImgCont1{
     width: 100%;
-    display: flex;
+    display: flex
+;
     justify-content: center;
     align-items: center;
-    height: 493px;
 }
 .boxImg1{
     width: 45%;
@@ -78,9 +84,13 @@
 .box2{
     background: #cd8500;
     width: 49.5%;
-    height: 620px;
     border-radius: 55px;
     padding: 40px;
+    display: flex
+;
+    flex-direction: column;
+    gap: 106px;
+    justify-content: center;
 }
 
 .boxTitle2{
@@ -93,13 +103,13 @@
 }
 .boxImgCont2{
     width: 100%;
-    display: flex;
+    display: flex
+;
     justify-content: center;
     align-items: center;
-    height: 493px;
 }
 .boxImg2{
-    width: 71%;
+    width: 70%;
 }
 .boxTxt2{
     font-family: "Inter", sans-serif;
