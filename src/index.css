@@ -183,6 +183,13 @@ html {
             
             }
             
+            @media(max-width:4000px){
+
+              .ourWorkTitle{
+                font-size: 800px  ;
+              }
+              }
+    
 
 
         @media(max-width:685px){
@@ -191,7 +198,11 @@ html {
           .ourWorkSecH1{
             font-size: 25px !important;
           }
+          .ourWorkTitle{
+            font-size: 250px  ;
           }
+          }
+
 
 
 
