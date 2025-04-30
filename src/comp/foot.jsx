@@ -15,10 +15,19 @@ function Foot(ref) {
 
       <div ref={ref.sectionRef} className='footContant1Cont'>
         <p className='footContant1Txt'>through the following options</p>
+
+
+        <a style={{textDecoration: "none"}} href="https://api.whatsapp.com/send/?phone=201555330603&text&type=phone_number&app_absent=0"> 
         <div className='footContant1'>whatsapp <img className='footContant1Img' src={whatsapp} alt="" /></div>
+        </a>
+
+        <a style={{textDecoration: "none"}} href="https://www.instagram.com/aq_sites?igsh=MTliZ3U2NWo2M2Q3dQ%3D%3D&utm_source=qr"> 
         <div className='footContant1'>instagram <img className='footContant1Img' src={instagram} alt="" /></div>
-        <div className='footContant1'>facebook <img className='footContant1Img' src={facebook} alt="" /></div>
+        </a>
+
+        <a style={{textDecoration: "none"}} href="https://www.tiktok.com/@aq.sites?_t=ZS-8vyeNEM8GJD&_r=1"> 
         <div className='footContant1'>tiktok <img className='footContant1Img' src={tiktok} alt="" /></div>
+        </a>
 
 
         <h1></h1>
