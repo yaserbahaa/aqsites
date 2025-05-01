@@ -73,10 +73,7 @@ html {
       width: 95% !important;
     }
 
-    .sec3Parent {
-      padding-bottom: 0px !important;
-    
-    }
+
     
     /* .sec3Title{
       display: none !important;
@@ -435,7 +432,7 @@ margin-right: 0px !important;
 
             .ourWorkSec1 {
               border-radius: 48px;
-              width: 33.33% !important;
+              width: 66.33% !important;
               display: flex
           ;
               background: #333;
@@ -444,11 +441,11 @@ margin-right: 0px !important;
               gap: 10px !important;
           }
             .ourWorkCont {
-
+              flex-direction: column;
               margin-bottom: 493px !important;
           }
           .ourWorkSecImg{
-            width: 130% !important;
+            width: 100% !important;
           }
           .boxImg2 {
             width: 100% !important;
@@ -1081,6 +1078,7 @@ display: none !important;
 
             @media (max-width: 459px) {
               .ourWorkCont {
+                
                   margin-top: 246px !important;
               }
 
