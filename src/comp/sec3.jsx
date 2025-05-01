@@ -2,7 +2,11 @@ import { useState , useEffect ,useRef } from 'react'
 import "../css/sec3.css"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
-import test from '../assets/Remove background project.png'
+import test from '../assets/servicio-de-soporte-tecnico-5788136-4840227.webp'
+import test2 from '../assets/strategic-digital-marketing.webp'
+import test3 from '../assets/SEO-Services-banner.svg'
+import test4 from '../assets/You-need-a-functional-website.webp'
+
 import Tec from './tec';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -53,10 +57,10 @@ function Sec3() {
   gsap.to(contant.current, {
     scrollTrigger: {
       trigger: contant.current,
-      start: '-1240px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-      end: '-800px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+      start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+      end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
   scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-  // markers:true// Show start and end markers (for debugging)
+  markers:true// Show start and end markers (for debugging)
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
@@ -69,8 +73,8 @@ ease: 'none',
 gsap.to(contantImg.current, {
   scrollTrigger: {
     trigger: contantImg.current,
-    start: '-1350px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-    end: '-1050px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+    start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+    end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -85,8 +89,8 @@ ease: 'none',
 gsap.to(progress.current, {
   scrollTrigger: {
     trigger: progress.current,
-    start: '-1350px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-    end: '-900px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+    start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+    end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -101,15 +105,15 @@ ease: 'none',
 gsap.to(contant2.current, {
   scrollTrigger: {
     trigger: contant2.current,
-    start: '-1240px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-    end: '-800px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+    start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+    end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
 
-gap:"0px",
+gap:"69px",
 ease: 'none',
 // duration: 2,
 });
@@ -117,8 +121,8 @@ ease: 'none',
 gsap.to(contantImg2.current, {
 scrollTrigger: {
   trigger: contantImg2.current,
-  start: '-1350px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-  end: '-1050px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+  start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+  end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -133,8 +137,8 @@ ease: 'none',
 gsap.to(progress2.current, {
 scrollTrigger: {
   trigger: progress2.current,
-  start: '-1350px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-  end: '-900px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+  start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+  end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -151,8 +155,8 @@ ease: 'none',
 gsap.to(contant3.current, {
   scrollTrigger: {
     trigger: contant3.current,
-    start: '-1240px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-    end: '-800px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+    start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+    end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -167,8 +171,8 @@ ease: 'none',
 gsap.to(contantImg3.current, {
 scrollTrigger: {
   trigger: contantImg3.current,
-  start: '-1350px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-  end: '-1050px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+  start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+  end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -183,8 +187,8 @@ ease: 'none',
 gsap.to(progress3.current, {
 scrollTrigger: {
   trigger: progress3.current,
-  start: '-1350px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-  end: '-900px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+  start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+  end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -201,15 +205,15 @@ ease: 'none',
 gsap.to(contant4.current, {
   scrollTrigger: {
     trigger: contant4.current,
-    start: '-1240px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-    end: '-800px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+    start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+    end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
 
-gap:"0px",
+gap:"69px",
 ease: 'none',
 // duration: 2,
 });
@@ -217,8 +221,8 @@ ease: 'none',
 gsap.to(contantImg4.current, {
 scrollTrigger: {
   trigger: contantImg4.current,
-  start: '-1350px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-  end: '-1050px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+  start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+  end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -233,10 +237,10 @@ ease: 'none',
 gsap.to(progress4.current, {
 scrollTrigger: {
   trigger: progress4.current,
-  start: '-1350px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-  end: '-1050px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+  start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+  end: '-100 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-// markers:true// Show start and end markers (for debugging)
+markers:true// Show start and end markers (for debugging)
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
@@ -276,7 +280,7 @@ ease: 'none',
     <div ref={contant2} className='sec3Contant1Cont'>
 
     <div className='sec3Contant1ContPart2'> 
-      <img className='sec3Contant1ContPart2Img' ref={contantImg2} src={test} alt="" />
+      <img className='sec3Contant1ContPart2Img' ref={contantImg2} src={test4} alt="" />
       </div>
 
       <div className='sec3Contant2Part1'>
@@ -306,7 +310,7 @@ ease: 'none',
 
 
     <div className='sec3Contant1ContPart2'> 
-      <img className='sec3Contant1ContPart2Img' ref={contantImg3} src={test} alt="" />
+      <img className='sec3Contant1ContPart2Img' ref={contantImg3} src={test3} alt="" />
       </div>
     </div>
 
@@ -314,7 +318,7 @@ ease: 'none',
     <div ref={contant4} className='sec3Contant1Cont'>
 
     <div className='sec3Contant1ContPart2'> 
-      <img className='sec3Contant1ContPart2Img' ref={contantImg4} src={test} alt="" />
+      <img className='sec3Contant1ContPart2Img' ref={contantImg4} src={test2} alt="" />
       </div>
 
       <div className='sec3Contant4Part1'>

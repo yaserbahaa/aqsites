@@ -23,8 +23,8 @@ function Sec2() {
     gsap.to(box1.current, {
       scrollTrigger: {
         trigger: box1.current,
-        start: '-1240px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-        end: '-1000px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+        start: '-400px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+        end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
     scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
     // markers:true// Show start and end markers (for debugging)
   },
@@ -37,8 +37,8 @@ function Sec2() {
   gsap.to(box2.current, {
     scrollTrigger: {
       trigger: box2.current,
-      start: '-1240px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-      end: '-1000px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+      start: '-400px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+      end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
   scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
   // markers:true// Show start and end markers (for debugging)
 },
@@ -51,8 +51,8 @@ x: window.innerWidth > 515 ? "-90px" : "0px",ease: 'none',
 gsap.to(box3.current, {
   scrollTrigger: {
     trigger: box3.current,
-    start: '-1240px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-    end: '-1000px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+    start: '-400px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+    end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -65,8 +65,8 @@ x: window.innerWidth > 515 ? "-90px" : "0px",ease: 'none',
 gsap.to(box4.current, {
   scrollTrigger: {
     trigger: box4.current,
-    start: '-1240px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-    end: '-1000px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+    start: '-400px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+    end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // markers:true// Show start and end markers (for debugging)
 },
@@ -82,10 +82,10 @@ ease: 'none',
   gsap.to(textRef.current, {
     scrollTrigger: {
       trigger: textRef.current,
-  start: "-500px 90%", // Trigger animation when top of the box is 80% from the top of the viewport
-  end: "60px 90%", // End the animation when top of the box is 30% from the top of the viewport
+  start: "-200px 90%", // Trigger animation when top of the box is 80% from the top of the viewport
+  end: "800px 90%", // End the animation when top of the box is 30% from the top of the viewport
   scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-  // markers:true// Show start and end markers (for debugging)
+  markers:true// Show start and end markers (for debugging)
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right

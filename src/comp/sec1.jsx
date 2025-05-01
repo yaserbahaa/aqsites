@@ -2,7 +2,7 @@ import { useState , useEffect ,useRef } from 'react'
 import "../css/sec1.css"
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
-import test from '../assets/Remove background project.png'
+import test from '../assets/SEO-Services-banner.svg'
 import test2 from '../assets/strategic-digital-marketing.webp'
 import test3 from '../assets/You-need-a-functional-website.webp'
 import test4 from '../assets/icons8-multiple-devices-64.png'
