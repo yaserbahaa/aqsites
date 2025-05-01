@@ -60,7 +60,7 @@ function Sec3() {
       start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
       end: '100px 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
   scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-  markers:true// Show start and end markers (for debugging)
+  // markers:true// Show start and end markers (for debugging)
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
@@ -240,7 +240,7 @@ scrollTrigger: {
   start: '-400px 95%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
   end: '-100 95%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
 scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-markers:true// Show start and end markers (for debugging)
+// markers:true// Show start and end markers (for debugging)
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right

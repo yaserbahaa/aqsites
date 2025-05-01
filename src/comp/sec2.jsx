@@ -85,7 +85,7 @@ ease: 'none',
   start: "-200px 90%", // Trigger animation when top of the box is 80% from the top of the viewport
   end: "800px 90%", // End the animation when top of the box is 30% from the top of the viewport
   scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-  markers:true// Show start and end markers (for debugging)
+  // markers:true// Show start and end markers (for debugging)
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
