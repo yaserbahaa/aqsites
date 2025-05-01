@@ -216,10 +216,28 @@ html {
 
 
           @media(max-width:515px){
+            .ourWorkSec1 {
+              border-radius: 48px;
+              width: 33.33% !important;
+              display: flex
+          ;
+              background: #333;
+              flex-direction: column;
+              padding: 40px;
+              gap: 10px !important;
+          }
             .ourWorkCont {
 
               margin-bottom: 493px !important;
           }
+          .ourWorkSecImg{
+            width: 130% !important;
+          }
+          .boxImg2 {
+            width: 100% !important;
+        }
+
+
             .menuListParent1Child1 {
               width: 49%!important;
               border-radius: 24px!important;
@@ -378,9 +396,7 @@ html {
             justify-content: center!important;
             align-items: center!important;
         }
-        .boxImg2 {
-          width: 69%!important;
-      }
+
       
         .boxTxt2 {
           font-family: "Inter", sans-serif!important;
@@ -436,12 +452,7 @@ html {
               text-align: center!important;
           }
             
-          .boxImg3 {
-            /* position: absolute; */
-            /* top: 62px; */
-            /* right: 3px; */
-            width: 40px!important;
-        }
+
 
         .box4 {
           display: flex!important
@@ -468,12 +479,7 @@ html {
           text-align: center!important;
       }
         
-      .boxImg4 {
-        /* position: absolute; */
-        /* top: 62px; */
-        /* right: 3px; */
-        width: 40px!important;
-    }
+
 
     .box5 {
       display: flex!important
@@ -500,12 +506,7 @@ html {
       text-align: center!important;
   }
     
-  .boxImg5 {
-    /* position: absolute; */
-    /* top: 62px; */
-    /* right: 3px; */
-    width: 40px!important;
-}
+
 
 .sec1Title {
   color: white!important;
@@ -542,6 +543,7 @@ html {
   position: unset !important;
   top: 0px !important;
   right: 0px !important;
+  width: 66px !important;
 }
 
 
@@ -549,12 +551,16 @@ html {
   position: unset !important;
   top: 0px !important;
   right: 0px !important;
+  width: 70px !important;
+
 }
 
 .boxImg5 {
   position: unset !important;
   top: 0px !important;
   right: 0px !important;
+  width: 79px !important;
+
 }
 
 .boxTitle3 {
@@ -899,6 +905,7 @@ display: none !important;
                 width: 29px!important;
               }
               .ourWorkSec1{
+
                 padding: 19px !important;
                 border-radius: 13px !important;
               }
