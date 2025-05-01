@@ -29,13 +29,13 @@ function Sec2() {
         trigger: ".sec2Box1",
         start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
         end: '100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
-    scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+    // scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
     markers:true// Show start and end markers (for debugging)
   },
   // y: "3400px", // Animate the box 300px to the right
   // y: "2300px", // Animate the box 300px to the right
-  x: "-90px" ,  
-  ease: 'none',
+  x: window.innerWidth > 515 ? "-90px" : "0px",  
+  // ease: 'none',
   // duration: 2,
   });
 
