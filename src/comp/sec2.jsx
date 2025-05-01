@@ -23,6 +23,9 @@ function Sec2() {
 
 
 
+
+
+
   gsap.to(box2.current, {
     scrollTrigger: {
       trigger: box2.current,
@@ -96,7 +99,7 @@ const anim = gsap.to(box1.current, {
   scrollTrigger: {
     trigger: ".sec2Box1",
     start: "0px 90%",
-    end: "100px 90%",
+    end: "-100px 90%",
     scrub: 1,
     markers: true,
   },
@@ -107,7 +110,7 @@ const anim = gsap.to(box1.current, {
 // Add a delay before forcing a refresh
 setTimeout(() => {
   ScrollTrigger.refresh();
-}, 250); // Delay helps layout fully settle
+}, 550); // Delay helps layout fully settle
 
 return () => {
   anim.kill();
