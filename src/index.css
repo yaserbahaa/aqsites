@@ -14,6 +14,7 @@ body{
   font-size: 34px;
   cursor: pointer;
   margin: 50px 0px 153px 0px;
+  color: black;
 }
 
 .buttonIntro3 {
@@ -27,6 +28,7 @@ body{
   font-size: 34px;
   cursor: pointer;
   margin: 0px 0px 123px 0px;
+  color: black;
 }
 
 .buttonIntro4 {
@@ -41,6 +43,7 @@ body{
   font-size: 34px;
   cursor: pointer;
   margin: 111px 0px 19px 0px;
+  color: black;
 }
 
 
