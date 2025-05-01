@@ -39,7 +39,7 @@ useEffect(()=>{
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
-y: "0px",
+y: window.innerWidth > 515 ? "-500px" : "0px",
 ease: 'none',
 // duration: 2,
 });
