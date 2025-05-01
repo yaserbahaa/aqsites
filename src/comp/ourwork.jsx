@@ -28,6 +28,13 @@ function Ourwork() {
 const themes = useRef(null)
 const textRef = useRef(null)
 useEffect(()=>{
+  
+// Add a delay before forcing a refresh
+setTimeout(() => {
+  ScrollTrigger.refresh();
+}, 250); // Delay helps layout fully settle
+
+
 
   gsap.to(themes.current, {
     scrollTrigger: {
