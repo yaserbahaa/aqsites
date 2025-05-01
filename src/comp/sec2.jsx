@@ -42,82 +42,78 @@ function Sec2() {
 
 
 
-  window.onload = function () {
-  gsap.to(box2.current, {
-    scrollTrigger: {
-      trigger: box2.current,
-      start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-      end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
-  scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-  // markers:true// Show start and end markers (for debugging)
-},
-// y: "3400px", // Animate the box 300px to the right
-// y: "2300px", // Animate the box 300px to the right
-x: window.innerWidth > 515 ? "-90px" : "0px",
-ease: 'none',
-// duration: 2,
-});
+//   gsap.to(box2.current, {
+//     scrollTrigger: {
+//       trigger: box2.current,
+//       start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+//       end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+//   scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+//   // markers:true// Show start and end markers (for debugging)
+// },
+// // y: "3400px", // Animate the box 300px to the right
+// // y: "2300px", // Animate the box 300px to the right
+// x: window.innerWidth > 515 ? "-90px" : "0px",
+// ease: 'none',
+// // duration: 2,
+// });
 
-  }
+//   
 
-window.onload = function () {
-gsap.to(box3.current, {
-  scrollTrigger: {
-    trigger: box3.current,
-    start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-    end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
-scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-// markers:true// Show start and end markers (for debugging)
-},
-// y: "3400px", // Animate the box 300px to the right
-// y: "2300px", // Animate the box 300px to the right
-x: window.innerWidth > 515 ? "-90px" : "0px",
-ease: 'none',
-// duration: 2,
-});
+// gsap.to(box3.current, {
+//   scrollTrigger: {
+//     trigger: box3.current,
+//     start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+//     end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+// scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+// // markers:true// Show start and end markers (for debugging)
+// },
+// // y: "3400px", // Animate the box 300px to the right
+// // y: "2300px", // Animate the box 300px to the right
+// x: window.innerWidth > 515 ? "-90px" : "0px",
+// ease: 'none',
+// // duration: 2,
+// });
 
-}
+// 
 
 
-window.onload = function () {
-gsap.to(box4.current, {
-  scrollTrigger: {
-    trigger: box4.current,
-    start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-    end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
-scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-// markers:true// Show start and end markers (for debugging)
-},
-// y: "3400px", // Animate the box 300px to the right
-// y: "2300px", // Animate the box 300px to the right
-x: window.innerWidth > 515 ? "-90px" : "0px",
+// gsap.to(box4.current, {
+//   scrollTrigger: {
+//     trigger: box4.current,
+//     start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+//     end: '-100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+// scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+// // markers:true// Show start and end markers (for debugging)
+// },
+// // y: "3400px", // Animate the box 300px to the right
+// // y: "2300px", // Animate the box 300px to the right
+// x: window.innerWidth > 515 ? "-90px" : "0px",
 
-ease: 'none',
-// duration: 2,
-});
-}
+// ease: 'none',
+// // duration: 2,
+// });
+// 
 
-window.onload = function () {
-  gsap.to(textRef.current, {
-    scrollTrigger: {
-      trigger: textRef.current,
-  start: "0px 90%", // Trigger animation when top of the box is 80% from the top of the viewport
-  end: "800px 90%", // End the animation when top of the box is 30% from the top of the viewport
-  scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-  // markers:true// Show start and end markers (for debugging)
-},
-// y: "3400px", // Animate the box 300px to the right
-// y: "2300px", // Animate the box 300px to the right
-y: "960px",
-ease: 'none',
-// duration: 2,
-});
-}
+//   gsap.to(textRef.current, {
+//     scrollTrigger: {
+//       trigger: textRef.current,
+//   start: "0px 90%", // Trigger animation when top of the box is 80% from the top of the viewport
+//   end: "800px 90%", // End the animation when top of the box is 30% from the top of the viewport
+//   scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+//   // markers:true// Show start and end markers (for debugging)
+// },
+// // y: "3400px", // Animate the box 300px to the right
+// // y: "2300px", // Animate the box 300px to the right
+// y: "960px",
+// ease: 'none',
+// // duration: 2,
+// });
+// 
 
 
 if (!box1.current) return;
 
-const animation = gsap.to(box1.current, {
+const anim = gsap.to(box1.current, {
   scrollTrigger: {
     trigger: ".sec2Box1",
     start: "0px 90%",
@@ -129,10 +125,13 @@ const animation = gsap.to(box1.current, {
   ease: "none",
 });
 
-ScrollTrigger.refresh(); // Ensure layout recalculates
+// Add a delay before forcing a refresh
+setTimeout(() => {
+  ScrollTrigger.refresh();
+}, 250); // Delay helps layout fully settle
 
 return () => {
-  animation.kill();
+  anim.kill();
   ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 };
 
