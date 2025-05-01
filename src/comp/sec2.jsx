@@ -34,7 +34,7 @@ function Sec2() {
   },
   // y: "3400px", // Animate the box 300px to the right
   // y: "2300px", // Animate the box 300px to the right
-  x: window.innerWidth > 515 ? "-90px" : "0px",  
+  x: "-90px" ,  
   ease: 'none',
   // duration: 2,
   });
