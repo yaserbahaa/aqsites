@@ -24,20 +24,20 @@ function Sec2() {
 
 
 
-          gsap.to(box1.current, {
-      scrollTrigger: {
-        trigger: ".sec2Box1",
-        start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
-        end: '100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
-    // scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-    markers:true// Show start and end markers (for debugging)
-  },
-  // y: "3400px", // Animate the box 300px to the right
-  // y: "2300px", // Animate the box 300px to the right
-  x: window.innerWidth > 515 ? "-90px" : "0px",  
+  //         gsap.to(box1.current, {
+  //     scrollTrigger: {
+  //       trigger: ".sec2Box1",
+  //       start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
+  //       end: '100px 90%', // End the animation when top of the container is 25% from the top of the viewportop of the viewport
+  //   scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+  //   markers:true// Show start and end markers (for debugging)
+  // },
+  // // y: "3400px", // Animate the box 300px to the right
+  // // y: "2300px", // Animate the box 300px to the right
+  // x: window.innerWidth > 515 ? "-90px" : "0px",  
   // ease: 'none',
-  // duration: 2,
-  });
+  // // duration: 2,
+  // });
 
 
 
@@ -114,6 +114,27 @@ ease: 'none',
 });
 }
 
+
+if (!box1.current) return;
+
+const animation = gsap.to(box1.current, {
+  scrollTrigger: {
+    trigger: ".sec2Box1",
+    start: "0px 90%",
+    end: "100px 90%",
+    scrub: 1,
+    markers: true,
+  },
+  x: window.innerWidth > 515 ? "-90px" : "0px",
+  ease: "none",
+});
+
+ScrollTrigger.refresh(); // Ensure layout recalculates
+
+return () => {
+  animation.kill();
+  ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+};
 
   },[])
 
