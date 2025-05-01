@@ -39,7 +39,7 @@ useEffect(()=>{
 },
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
-y: "-500px",
+y: "0px",
 ease: 'none',
 // duration: 2,
 });
@@ -56,7 +56,7 @@ ease: 'none',
         start: '0px 90%', // Trigger the animation when 20% from the top of the container hits 50% of the viewport
         end: '400px 90%', // End the animation when top of the container is 25% from the top of the viewport
         scrub: 1, // Smooth scrubbing
-        markers: true, // Uncomment this to see the start and end markers
+        // markers: true, // Uncomment this to see the start and end markers
       },
       fontSize: window.innerWidth > 1060 ? "300px" : window.innerWidth > 700 ? "200px" : window.innerWidth > 460 ? "128px" :  window.innerWidth > 320 ? "74px" : "70px", // Change text color to dark golden rod
       // fontSize: window.innerWidth > 1060 ? "300px" :"200px", // Change text color to dark golden rod

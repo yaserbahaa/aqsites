@@ -216,6 +216,10 @@ html {
 
 
           @media(max-width:515px){
+            .ourWorkCont {
+
+              margin-bottom: 493px !important;
+          }
             .menuListParent1Child1 {
               width: 49%!important;
               border-radius: 24px!important;
