@@ -40,27 +40,43 @@ function Foot(ref) {
         </div>
 
         <div className='footContant2MiniNbCont'>
+        <a className='scroll' href="#themes">
           <h1 className='footContant2MiniNb1'>WEB DESIGN</h1>
+          </a>
+
+          <a className='scroll' href="#dev">
           <h1 className='footContant2MiniNb2'>DEVELOPMENT</h1>
+          </a>
+
+          <a style={{textDecoration: "none"}} href="https://api.whatsapp.com/send/?phone=201555330603&text&type=phone_number&app_absent=0"> 
           <h1 className='footContant2MiniNb3'>CONTACT US</h1>
+          </a>
+
         </div>
 
         <div  className='footContant2IconsContParent'>
           <div className='footContant2Icons1Cont1'>
+          <a style={{textDecoration: "none"}} href="https://api.whatsapp.com/send/?phone=201555330603&text&type=phone_number&app_absent=0"> 
             <img className='footContant2Icons1Img' src={whatsapp} alt="" />
+            </a>
           </div>
 
           <div className='footContant2Icons1Cont1'>
-            <img className='footContant2Icons1Img' src={facebook} alt="" />
+
+          <a style={{textDecoration: "none"}} href="https://www.tiktok.com/@aq.sites?_t=ZS-8vyeNEM8GJD&_r=1"> 
+            <img className='footContant2Icons1Img' src={tiktok} alt="" />
+            </a>
+
           </div>
 
           <div className='footContant2Icons1Cont1'>
+            
+          <a style={{textDecoration: "none"}} href="https://www.instagram.com/aq_sites?igsh=MTliZ3U2NWo2M2Q3dQ%3D%3D&utm_source=qr"> 
             <img  className='footContant2Icons1Img' src={instagram} alt="" />
+            </a>
+
           </div>
 
-          <div className='footContant2Icons1Cont1'>
-            <img  className='footContant2Icons1Img' src={tiktok} alt="" />
-          </div>
         </div>
 
 

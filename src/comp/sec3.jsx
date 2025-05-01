@@ -81,7 +81,7 @@ scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
 
-width:"452px",
+width:"100%",
 ease: 'none',
 // duration: 2,
 });
@@ -113,7 +113,7 @@ scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
 
-gap:"69px",
+gap:"45px",
 ease: 'none',
 // duration: 2,
 });
@@ -129,7 +129,7 @@ scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
 
-width:"452px",
+width:"100%",
 ease: 'none',
 // duration: 2,
 });
@@ -179,7 +179,7 @@ scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
 
-width:"452px",
+width:"100%",
 ease: 'none',
 // duration: 2,
 });
@@ -213,7 +213,7 @@ scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
 
-gap:"69px",
+gap:"45px",
 ease: 'none',
 // duration: 2,
 });
@@ -229,7 +229,7 @@ scrub: 1, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
 // y: "3400px", // Animate the box 300px to the right
 // y: "2300px", // Animate the box 300px to the right
 
-width:"452px",
+width:"100%",
 ease: 'none',
 // duration: 2,
 });
@@ -280,7 +280,7 @@ ease: 'none',
     <div ref={contant2} className='sec3Contant1Cont'>
 
     <div className='sec3Contant1ContPart2'> 
-      <img className='sec3Contant1ContPart2Img' ref={contantImg2} src={test4} alt="" />
+      <img className='sec3Contant2ContPart2Img' ref={contantImg2} src={test4} alt="" />
       </div>
 
       <div className='sec3Contant2Part1'>
@@ -310,7 +310,7 @@ ease: 'none',
 
 
     <div className='sec3Contant1ContPart2'> 
-      <img className='sec3Contant1ContPart2Img' ref={contantImg3} src={test3} alt="" />
+      <img className='sec3Contant3ContPart2Img' ref={contantImg3} src={test3} alt="" />
       </div>
     </div>
 
@@ -318,7 +318,7 @@ ease: 'none',
     <div ref={contant4} className='sec3Contant1Cont'>
 
     <div className='sec3Contant1ContPart2'> 
-      <img className='sec3Contant1ContPart2Img' ref={contantImg4} src={test2} alt="" />
+      <img className='sec3Contant4ContPart2Img' ref={contantImg4} src={test2} alt="" />
       </div>
 
       <div className='sec3Contant4Part1'>

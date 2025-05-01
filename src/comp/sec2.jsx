@@ -101,7 +101,6 @@ const anim = gsap.to(box1.current, {
     start: "0px 90%",
     end: "-100px 90%",
     scrub: 1,
-    markers: true,
   },
   x: window.innerWidth > 515 ? "-90px" : "0px",
   ease: "none",

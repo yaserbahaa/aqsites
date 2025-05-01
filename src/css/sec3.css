@@ -114,7 +114,7 @@
     display: flex
 ;
     flex-direction: column;
-    padding: 40px 40px 40px 0px;
+    padding: 40px 0px 40px 40px;
     gap: 22px;
     align-items: start;
 }
@@ -242,7 +242,7 @@
     display: flex
 ;
     flex-direction: column;
-    padding: 40px 40px 40px 0px;
+    padding: 40px 0px 40px 40px;
     gap: 22px;
     align-items: start;
 }
@@ -309,4 +309,16 @@
 .sec3Contant1ContPart2Img{
     width: 5px;
     margin-left: 42px;
+}
+.sec3Contant2ContPart2Img{
+    width: 5px;
+    margin-right: 42px;
+}
+.sec3Contant3ContPart2Img{
+    width: 5px;
+    margin-left: 42px;
+}
+.sec3Contant4ContPart2Img{
+    width: 5px;
+    margin-right: 42px;
 }
