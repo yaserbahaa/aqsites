@@ -250,6 +250,10 @@ ease: 'none',
 // duration: 2,
 });
 
+setTimeout(() => {
+  ScrollTrigger.refresh();
+}, 550); // Delay helps layout fully settle
+
   },[])
 
   return (
